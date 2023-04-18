@@ -1,0 +1,14 @@
+{
+  "name": "sssf-project-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "lint": "eslint --fix src test"
+  },
+  "author": "",
+  "license": "ISC"
+}
